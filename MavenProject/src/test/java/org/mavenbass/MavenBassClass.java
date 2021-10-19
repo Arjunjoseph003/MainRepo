@@ -63,6 +63,7 @@ public class MavenBassClass {
 
 	public static void Fill(WebElement element, String txt) {
 		element.sendKeys(txt);
+		
 	}
 
 	public static void btnClick(WebElement element) {
@@ -437,7 +438,7 @@ public class MavenBassClass {
 	}
 
 	public static Sheet excelSheetRead(String sheetName) throws Exception {
-		File f = new File("C:\\Users\\Arjun\\Documents\\booking hotel details.xlsx");
+		File f = new File("C:\\Users\\Arjun\\Documents\\flipkartdetails.xlsx");
 		FileInputStream read = new FileInputStream(f);
 		Workbook w = new XSSFWorkbook(read);
 		Sheet sheet = w.getSheet(sheetName);
@@ -481,7 +482,7 @@ public class MavenBassClass {
 
 				} else if (DateUtil.isCellDateFormatted(cell)) {
 					Date date = cell.getDateCellValue();
-					SimpleDateFormat sDF = new SimpleDateFormat("dd MM yyyy");
+					SimpleDateFormat sDF = new SimpleDateFormat("dd MMM yyyy");
 					String format = sDF.format(date);
 					System.out.println(format);
 
@@ -505,15 +506,15 @@ public class MavenBassClass {
 		Row row = sh.getRow(rowNo);
 		Cell cell = row.getCell(cellNo);
 		int type = cell.getCellType();
-		System.out.println(type);
+		//System.out.println(type);
 		if (type == 1) {
 			value = cell.getStringCellValue();
-			System.out.println(value);
+			//System.out.println(value);
 
 		} else if (DateUtil.isCellDateFormatted(cell)) {
 			Date date = cell.getDateCellValue();
 			String dateFormat1;
-			SimpleDateFormat sDF = new SimpleDateFormat("dd/MM/yyyy");
+			SimpleDateFormat sDF = new SimpleDateFormat("dd MMM yyyy");
 			value = sDF.format(date);
 
 		} else {
