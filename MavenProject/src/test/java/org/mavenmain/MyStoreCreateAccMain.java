@@ -1,5 +1,7 @@
 package org.mavenmain;
 
+import java.awt.AWTException;
+
 import org.mavenbass.MavenBassClass;
 import org.pojoclass.MyStoreCreateAccountPojoClass;
 import org.testng.annotations.AfterClass;
@@ -30,7 +32,7 @@ public class MyStoreCreateAccMain extends MavenBassClass {
 	}
 
 	@Test
-	public void signIn() throws InterruptedException {
+	public void signIn() throws InterruptedException, AWTException {
 		btnClick(my.signIn);
 		Fill(my.email, "arjun03josephs@gmail.com");
 		btnClick(my.getCreateAnAcc());

@@ -352,6 +352,7 @@ public class MavenBassClass {
 
 	public static String getCurrentUrl() {
 		String currentUrl = driver.getCurrentUrl();
+		System.out.println(currentUrl);
 		return currentUrl;
 	}
 

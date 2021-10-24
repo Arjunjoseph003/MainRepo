@@ -5,7 +5,6 @@
     <classes>
       <class name="org.mavenmain.MyStoreCreateAccMain">
         <methods>
-          <include name="changingNewPassword"/>
           <include name="openingMyStore"/>
           <include name="signIn"/>
           <include name="closingBrowser"/>
