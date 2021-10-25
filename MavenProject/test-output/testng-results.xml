@@ -2,28 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-25T13:09:43 IST" name="Default suite" finished-at="2021-10-25T13:10:03 IST" duration-ms="19340">
+  <suite started-at="2021-10-25T17:04:35 IST" name="Default suite" finished-at="2021-10-25T17:04:59 IST" duration-ms="23760">
     <groups>
     </groups>
-    <test started-at="2021-10-25T13:09:43 IST" name="Default test" finished-at="2021-10-25T13:10:03 IST" duration-ms="19340">
-      <class name="org.mavenmain.CheckingMyStoreHomePage">
-        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:org.mavenmain.CheckingMyStoreHomePage@51e69659]" started-at="2021-10-25T13:09:41 IST" name="launchingBrowser" finished-at="2021-10-25T13:09:43 IST" duration-ms="2212" status="PASS">
+    <test started-at="2021-10-25T17:04:35 IST" name="Default test" finished-at="2021-10-25T17:04:59 IST" duration-ms="23760">
+      <class name="org.mavenmain.OrderingAProduct">
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:org.mavenmain.OrderingAProduct@54a7079e]" started-at="2021-10-25T17:04:32 IST" name="launchingBrowser" finished-at="2021-10-25T17:04:35 IST" duration-ms="3663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingBrowser -->
-        <test-method is-config="true" signature="openingMystoreHomePage()[pri:0, instance:org.mavenmain.CheckingMyStoreHomePage@51e69659]" started-at="2021-10-25T13:09:43 IST" name="openingMystoreHomePage" finished-at="2021-10-25T13:09:57 IST" duration-ms="13083" status="PASS">
+        <test-method is-config="true" signature="startingTheTestCaseOrderingAProduct()[pri:0, instance:org.mavenmain.OrderingAProduct@54a7079e]" started-at="2021-10-25T17:04:36 IST" name="startingTheTestCaseOrderingAProduct" finished-at="2021-10-25T17:04:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openingMystoreHomePage -->
-        <test-method signature="checkingHomePage()[pri:0, instance:org.mavenmain.CheckingMyStoreHomePage@51e69659]" started-at="2021-10-25T13:09:57 IST" name="checkingHomePage" finished-at="2021-10-25T13:10:03 IST" duration-ms="6185" status="PASS">
+        </test-method> <!-- startingTheTestCaseOrderingAProduct -->
+        <test-method signature="orderingAProductTestCase()[pri:0, instance:org.mavenmain.OrderingAProduct@54a7079e]" started-at="2021-10-25T17:04:36 IST" name="orderingAProductTestCase" finished-at="2021-10-25T17:04:59 IST" duration-ms="23580" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkingHomePage -->
-        <test-method is-config="true" signature="ensuringTheCheckingHomePage()[pri:0, instance:org.mavenmain.CheckingMyStoreHomePage@51e69659]" started-at="2021-10-25T13:10:03 IST" name="ensuringTheCheckingHomePage" finished-at="2021-10-25T13:10:03 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- orderingAProductTestCase -->
+        <test-method is-config="true" signature="complltetionOffirstTestCase()[pri:0, instance:org.mavenmain.OrderingAProduct@54a7079e]" started-at="2021-10-25T17:04:59 IST" name="complltetionOffirstTestCase" finished-at="2021-10-25T17:04:59 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ensuringTheCheckingHomePage -->
-      </class> <!-- org.mavenmain.CheckingMyStoreHomePage -->
+        </test-method> <!-- complltetionOffirstTestCase -->
+        <test-method is-config="true" signature="quittedBrowser()[pri:0, instance:org.mavenmain.OrderingAProduct@54a7079e]" started-at="2021-10-25T17:04:59 IST" name="quittedBrowser" finished-at="2021-10-25T17:04:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quittedBrowser -->
+      </class> <!-- org.mavenmain.OrderingAProduct -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
